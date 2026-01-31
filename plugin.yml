@@ -1,0 +1,29 @@
+name: FrostNwDuels
+version: 2.0
+main: com.frostnw.duels.FrostNwDuels
+api-version: 1.16
+author: FrostNw
+description: Avenor tarzi gelismis duel sistemi
+depend: [WorldEdit]
+
+commands:
+  duel:
+    description: Duel komutlari
+    usage: /duel <oyuncu>
+    aliases: [d, 1v1, duello]
+    
+  dueladmin:
+    description: Admin komutlari
+    usage: /dueladmin
+    aliases: [dadmin, dwadmin]
+    
+  duelsure:
+    description: Hizli sure ayarlama
+    usage: /duelsure
+    aliases: [dsure, sure]
+
+permissions:
+  frostduels.use:
+    default: true
+  frostduels.admin:
+    default: op
